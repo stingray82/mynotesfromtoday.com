@@ -1,0 +1,42 @@
+{
+  "lastDeploy": {
+    "id": "2026-10-27T15-46-22-067Z-28940e",
+    "url": "https://mynotesfromtoday.com",
+    "branch": "production",
+    "at": "2026-10-27T15:46:23.370Z"
+  },
+  "files": {
+    ".htaccess": "7ad9da8532478af2a555b41f4d3ad373",
+    "404.html": "45d4191cf5d18d6068bfb65578e11a3d",
+    "about/index.html": "6f83206c971184fd9a6ad32d96c0d0cb",
+    "assets/craftpages-blocks.css": "384a538ce8af58a33319a0503065284c",
+    "assets/craftpages-code.js": "19532dff2cb140a3f9dcc04199280199",
+    "assets/craftpages-lightbox.js": "ed2b2fcc52247e39d2d666c312ada882",
+    "assets/favicon.svg": "103991c19f992883991ac656bcf2fc30",
+    "assets/img/og/social-card.053363.jpg": "7f8f9137004d87c8a55c633bfb09faab",
+    "assets/site.css": "d9b856e8b8b42df06e099f281ba43d86",
+    "assets/site.js": "4a5117c6a175c383e1210647b9da5ab3",
+    "assets/social-card.svg": "1362e9e1d98c9b674c1c5f109e10885e",
+    "blog/feed.xml": "5a63bec4d87d5cea36d9160a6ddc8c4c",
+    "blog/index.html": "8449d0e4ce4289b2e2bc0b2134860935",
+    "blog/tag/note/index.html": "53dd7e110308ee60823055869545283b",
+    "build.mjs": "9f647565e3899f8cd01d3a2bbfcedbc2",
+    "contact/index.html": "1cbc70df6626b7e6f39b2c0b524c47a1",
+    "content/posts.json": "3a64ffe31c6f524a4007c09997c86dd2",
+    "feed.xml": "51f297d935da5a0085aa6bbbf8476928",
+    "index.html": "93bf1451603a0deffc97aa31188de317",
+    "lighter-less-polished/index.html": "0c27ceac8419ce480e27ada0970fdc70",
+    "notes/page/2/index.html": "d9903da133d76a2643d3ff338e76a507",
+    "package.json": "5e3b52ed46711443513c274a6ecc3040",
+    "README.md": "8eccdfec07fc9bba399fcfb66d9b5e36",
+    "robots.txt": "06418f81a032c9d0488a7a502c54525a",
+    "sitemap.xml": "2bea6d6a0192638b2e46836e14994dd1",
+    "verify.mjs": "f8d8851d29d62314a415735239b3dcee"
+  },
+  "published": [
+    "2026-10-27T15-42-11-869Z-df3178",
+    "2026-10-27T15-45-05-691Z-4b94bf",
+    "2026-10-27T15-46-22-067Z-28940e"
+  ],
+  "optimize": "{\"v\":1,\"minify\":true,\"cache\":false,\"inlineCssKb\":0,\"server\":true}"
+}

@@ -1,0 +1,30 @@
+{
+  "label": "Blog: publish",
+  "at": "2026-10-10T16:29:25.104Z",
+  "files": [
+    {
+      "path": "blog/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/feed.xml",
+      "existed": false
+    },
+    {
+      "path": "assets/craftpages-blocks.css",
+      "existed": false
+    },
+    {
+      "path": "assets/craftpages-lightbox.js",
+      "existed": false
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "_redirects",
+      "existed": false
+    }
+  ]
+}

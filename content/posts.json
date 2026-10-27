@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "a-place-for-the-in-between",
+    "title": "A place for the in-between",
+    "date": "2026-10-10",
+    "topic": "Field notes",
+    "excerpt": "A welcome note about the ideas, experiments and half-finished thoughts that belong here.",
+    "readMinutes": 3,
+    "body": [
+      { "type": "p", "text": "Some things are too small for a tutorial and too interesting to leave in a private notebook. This is a home for those things: what I am trying, what caught my attention, and what I think after spending a little time with it." },
+      { "type": "p", "text": "Expect short notes alongside longer pieces. A post might begin with a tool, a book, a question, or a tiny change to the way I work. The useful part is the thinking that follows." },
+      { "type": "h2", "text": "What you will find here" },
+      { "type": "p", "text": "There will be experiments in progress, considered opinions, and occasional recommendations when something has earned one. I want to be clear about what I have tested, what I am still unsure of, and when my mind changes." },
+      { "type": "p", "text": "For detailed technical guides, I also write at TechArticles. This space is looser by design: a place to follow curiosity without needing every thought to become a full how-to." },
+      { "type": "blockquote", "text": "A notebook is allowed to show the thinking, not just the conclusion." },
+      { "type": "p", "text": "If something here sparks a thought of your own, get in touch. The best notes tend to lead to better conversations." }
+    ]
+  },
+  {
+    "slug": "the-value-of-a-small-experiment",
+    "title": "The value of a small experiment",
+    "date": "2026-10-09",
+    "topic": "Tinkering",
+    "excerpt": "A reminder that trying one small thing can teach more than planning an entire system.",
+    "readMinutes": 2,
+    "body": [
+      { "type": "p", "text": "A useful experiment does not need to be impressive. It needs a question you can answer and a stopping point you can recognise." },
+      { "type": "p", "text": "When a new tool or idea looks promising, the temptation is to redesign everything around it. A smaller test makes the result easier to see. Give it one job, note what happened, and keep the parts that genuinely helped." },
+      { "type": "h2", "text": "Keep the evidence close" },
+      { "type": "p", "text": "Write down the starting point, the change, and the outcome while they are still fresh. Include the awkward bits. They are often the most useful part when you return to the idea later." },
+      { "type": "p", "text": "This is the kind of note I want to collect here: modest experiments, honestly described, with room for a second attempt." }
+    ]
+  },
+  {
+    "slug": "good-questions-to-keep-asking",
+    "title": "Good questions to keep asking",
+    "date": "2026-10-08",
+    "topic": "Perspectives",
+    "excerpt": "A few questions that make opinions more useful, especially while they are still forming.",
+    "readMinutes": 3,
+    "body": [
+      { "type": "p", "text": "An opinion is more helpful when you can see what shaped it. What problem was I trying to solve? What did I compare? How long did I spend with it? Who might have a very different result?" },
+      { "type": "p", "text": "Those questions slow things down in a good way. They make room for a view that is specific and honest instead of pretending to be universal." },
+      { "type": "h2", "text": "Make space to change your mind" },
+      { "type": "p", "text": "Early impressions are worth recording, but they are not a final verdict. A follow-up after a month of use can be more revealing than a polished first look." },
+      { "type": "p", "text": "I hope this site can hold both: what seems true today and what turned out differently later." }
+    ]
+  }
+]

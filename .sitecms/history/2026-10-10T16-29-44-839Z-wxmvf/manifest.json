@@ -1,0 +1,14 @@
+{
+  "label": "Blog: publish",
+  "at": "2026-10-10T16:29:44.839Z",
+  "files": [
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/feed.xml",
+      "existed": true
+    }
+  ]
+}

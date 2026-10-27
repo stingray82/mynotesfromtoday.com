@@ -1,0 +1,242 @@
+{
+  "post": "notes/a-place-for-the-in-between/index.html",
+  "list": "notes/index.html",
+  "postLayout": {
+    "regions": [
+      {
+        "path": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "tag": "article",
+        "classes": [
+          "prose"
+        ],
+        "hint": "article.prose “Some things are too small for a tutori…”"
+      }
+    ],
+    "title": {
+      "path": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "tag": "h1",
+      "classes": [],
+      "hint": "h1 “A place for the in-between”"
+    },
+    "date": {
+      "path": [
+        2,
+        0,
+        0,
+        3,
+        1
+      ],
+      "tag": "time",
+      "classes": [],
+      "hint": "time “10 October 2026”"
+    },
+    "image": null,
+    "category": {
+      "path": [
+        2,
+        0,
+        0,
+        3,
+        0
+      ],
+      "tag": "span",
+      "classes": [
+        "topic"
+      ],
+      "hint": "span.topic “Field notes”"
+    },
+    "tags": null,
+    "author": [],
+    "keepOnly": true,
+    "remove": [
+      {
+        "path": [
+          2,
+          0,
+          0,
+          3,
+          2
+        ],
+        "tag": "span",
+        "classes": [],
+        "hint": "span “3 min read”"
+      },
+      {
+        "path": [
+          2,
+          0,
+          1,
+          1,
+          0
+        ],
+        "tag": "p",
+        "classes": [],
+        "hint": "p “Field notes10 October 20263 minute read”"
+      }
+    ]
+  },
+  "listLayout": {
+    "container": {
+      "path": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "tag": "div",
+      "classes": [
+        "note-list"
+      ],
+      "hint": "div.note-list “01Field notes10 October 2026A place fo…”"
+    },
+    "card": {
+      "element": {
+        "path": [
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "tag": "article",
+        "classes": [
+          "note-row"
+        ],
+        "hint": "article.note-row “01Field notes10 October 2026A place fo…”"
+      },
+      "fields": {
+        "title": [
+          1,
+          1,
+          0
+        ],
+        "date": [
+          1,
+          0,
+          1
+        ],
+        "excerpt": [
+          1,
+          2
+        ],
+        "links": [
+          [
+            2
+          ]
+        ],
+        "link": [
+          2
+        ],
+        "category": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "pagination": {
+      "path": [
+        2,
+        1,
+        0,
+        2,
+        1
+      ],
+      "tag": "div",
+      "classes": [
+        "pagination-numbers"
+      ],
+      "hint": "div.pagination-numbers “12”"
+    },
+    "heading": {
+      "path": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "tag": "h1",
+      "classes": [],
+      "hint": "h1 “All notes.”"
+    },
+    "keepOnly": true,
+    "remove": []
+  },
+  "latest": [
+    {
+      "id": "9ljmqtp0",
+      "page": "index.html",
+      "container": {
+        "path": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "tag": "div",
+        "classes": [
+          "note-list"
+        ],
+        "hint": "div.note-list “01 October 27, 2026 Lighter & Less Pol…”"
+      },
+      "card": {
+        "element": {
+          "path": [
+            2,
+            1,
+            0,
+            1,
+            0
+          ],
+          "tag": "article",
+          "classes": [
+            "note-row"
+          ],
+          "hint": "article.note-row “01 October 27, 2026 Lighter & Less Pol…”"
+        },
+        "fields": {
+          "title": [
+            1,
+            1,
+            0
+          ],
+          "excerpt": [
+            1,
+            2
+          ],
+          "links": [
+            [
+              2,
+              0
+            ]
+          ],
+          "link": [
+            2,
+            0
+          ],
+          "category": [
+            1,
+            0,
+            0
+          ]
+        },
+        "html": "<article class=\"note-row\"><span class=\"row-number\" aria-hidden=\"true\">01</span><div class=\"row-content\"><div class=\"meta\"><time datetime=\"2026-10-27\">October 27, 2026</time></div><h3><a href=\"/lighter-less-polished/\">Lighter &amp; Less Polished</a></h3><p>An introduction to my notes from today the plan is for it to be lighter a space where I can share the bits that are not finished that I am working on…</p></div><a class=\"row-arrow\" href=\"/lighter-less-polished/\" aria-label=\"Read A place for the in-between\"><span aria-hidden=\"true\">↗</span></a></article>"
+      },
+      "count": 3
+    }
+  ],
+  "unpublished": [
+    "notes/a-place-for-the-in-between/index.html",
+    "notes/index.html"
+  ]
+}

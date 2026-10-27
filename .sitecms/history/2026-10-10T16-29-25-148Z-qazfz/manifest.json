@@ -1,0 +1,34 @@
+{
+  "label": "Blog: links to the blog",
+  "at": "2026-10-10T16:29:25.148Z",
+  "files": [
+    {
+      "path": "404.html",
+      "existed": true
+    },
+    {
+      "path": "about/index.html",
+      "existed": true
+    },
+    {
+      "path": "contact/index.html",
+      "existed": true
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/good-questions-to-keep-asking/index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/page/2/index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/the-value-of-a-small-experiment/index.html",
+      "existed": true
+    }
+  ]
+}

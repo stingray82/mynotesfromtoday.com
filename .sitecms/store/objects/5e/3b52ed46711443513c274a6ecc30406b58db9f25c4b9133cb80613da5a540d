@@ -1,0 +1,10 @@
+{
+  "name": "mynotesfromtoday",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A small, fast, static personal blog",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check build.mjs && node --check assets/site.js && node verify.mjs"
+  }
+}

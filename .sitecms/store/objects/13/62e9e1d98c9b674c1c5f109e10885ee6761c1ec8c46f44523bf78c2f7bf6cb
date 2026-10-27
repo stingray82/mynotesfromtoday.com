@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">My Notes from Today</title>
+  <rect width="1200" height="630" fill="#f5f3ed"/>
+  <path d="M80 85h1040M80 540h1040" stroke="#232924" stroke-width="2"/>
+  <text x="90" y="172" fill="#bc4e32" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="7">A PERSONAL NOTEBOOK</text>
+  <text x="80" y="335" fill="#232924" font-family="Georgia,serif" font-size="122">Notes from</text>
+  <text x="80" y="472" fill="#bc4e32" font-family="Georgia,serif" font-size="136" font-style="italic">today.</text>
+</svg>

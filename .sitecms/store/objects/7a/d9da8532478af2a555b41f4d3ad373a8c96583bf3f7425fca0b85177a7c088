@@ -1,0 +1,6 @@
+# craftpages:blog start (managed by CraftPages, edits here are replaced)
+<IfModule mod_alias.c>
+  RedirectMatch 301 ^/notes/a-place-for-the-in-between(/|/index\.html)?$ /blog/
+  RedirectMatch 301 ^/notes(/|/index\.html)?$ /blog/
+</IfModule>
+# craftpages:blog end
