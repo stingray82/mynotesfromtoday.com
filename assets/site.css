@@ -65,10 +65,11 @@
   .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 2.7rem; }
   .section-heading h2 { margin-top: .6rem; }
   .heading-period { color: var(--accent); }
-  .note-list { border-top: 1px solid var(--ink); }
-  .note-row { display: grid; grid-template-columns: 64px minmax(0, 1fr) 58px; align-items: start; gap: clamp(1rem, 3vw, 3rem); padding: clamp(1.65rem, 3.5vw, 3rem) .5rem; border-bottom: 1px solid var(--line); transition: background .2s, padding .2s; }
+  .note-list { border-top: 1px solid var(--ink); counter-reset: note-row; }
+  .note-row { counter-increment: note-row; display: grid; grid-template-columns: 64px minmax(0, 1fr) 58px; align-items: start; gap: clamp(1rem, 3vw, 3rem); padding: clamp(1.65rem, 3.5vw, 3rem) .5rem; border-bottom: 1px solid var(--line); transition: background .2s, padding .2s; }
   .note-row:hover { background: var(--surface); padding-inline: 1rem; }
-  .row-number { padding-top: .15rem; color: var(--accent); font: italic 1.35rem Georgia, serif; }
+  .row-number { padding-top: .15rem; color: var(--accent); font-size: 0; }
+  .row-number::before { content: counter(note-row, decimal-leading-zero); font: italic 1.35rem Georgia, serif; }
   .row-content h3 { margin: .65rem 0 .65rem; }
   .row-content h3 a { color: var(--ink); text-decoration: none; }
   .row-content h3 a:hover { color: var(--accent-dark); }
@@ -157,7 +158,7 @@
     .hero h1 { font-size: clamp(3.7rem, 15vw, 6.5rem); }
     .section-heading { flex-direction: column; align-items: flex-start; }
     .note-row { grid-template-columns: 34px minmax(0, 1fr); gap: 1rem; padding-block: 1.7rem; }
-    .row-number { font-size: 1rem; }
+    .row-number::before { font-size: 1rem; }
     .row-arrow { display: none; }
     .row-content h3 { font-size: 1.85rem; }
     .meta { gap: .25rem .45rem; }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Notes · mynotesfromtoday.com</title>
+    <link>https://mynotesfromtoday.com/blog/</link>
+    <description>mynotesfromtoday.com notes</description>
+    <language>en</language>
+    <item>
+      <title>Opinions &amp; Subscriptions</title>
+      <link>https://mynotesfromtoday.com/opinions-subscriptions/</link>
+      <guid>https://mynotesfromtoday.com/opinions-subscriptions/</guid>
+      <pubDate>Sun, 01 Nov 2026 15:14:42 GMT</pubDate>
+      <description>I seem to be in my grump old man phase this week, but I woke up this morning and culled about $1500 worth of subscriptions. Why? I am spending to much on…</description>
+    </item>
+    <item>
+      <title>Lighter &amp; Less Polished</title>
+      <link>https://mynotesfromtoday.com/lighter-less-polished/</link>
+      <guid>https://mynotesfromtoday.com/lighter-less-polished/</guid>
+      <pubDate>Tue, 27 Oct 2026 15:42:25 GMT</pubDate>
+      <category>Note</category>
+      <description>An introduction to my notes from today the plan is for it to be lighter a space where I can share the bits that are not finished that I am working on…</description>
+    </item>
+  </channel>
+</rss>

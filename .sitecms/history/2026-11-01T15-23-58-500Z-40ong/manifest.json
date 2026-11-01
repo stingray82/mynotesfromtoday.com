@@ -1,0 +1,26 @@
+{
+  "label": "Blog: publish",
+  "at": "2026-11-01T15:23:58.500Z",
+  "files": [
+    {
+      "path": "opinions-subscriptions/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/feed.xml",
+      "existed": true
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "sitemap.xml",
+      "existed": true
+    }
+  ]
+}

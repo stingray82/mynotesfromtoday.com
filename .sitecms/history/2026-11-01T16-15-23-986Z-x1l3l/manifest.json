@@ -1,0 +1,34 @@
+{
+  "label": "Blog: publish",
+  "at": "2026-11-01T16:15:23.986Z",
+  "files": [
+    {
+      "path": "need-it-so-build-it/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/bunny/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/tag/chrome/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/feed.xml",
+      "existed": true
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "sitemap.xml",
+      "existed": true
+    }
+  ]
+}
