@@ -1,12 +1,12 @@
 {
   "lastDeploy": {
-    "id": "2026-11-09T18-01-25-045Z-523541",
+    "id": "2026-11-09T18-14-52-845Z-35efca",
     "url": "https://mynotesfromtoday.com",
     "branch": "production",
-    "at": "2026-11-09T18:01:25.954Z"
+    "at": "2026-11-09T18:14:53.773Z"
   },
   "files": {
-    ".htaccess": "7ad9da8532478af2a555b41f4d3ad373",
+    ".htaccess": "4b656237e4e36c99f478f459c0544219",
     "404.html": "45d4191cf5d18d6068bfb65578e11a3d",
     "about/index.html": "6f83206c971184fd9a6ad32d96c0d0cb",
     "assets/craftpages-blocks.css": "384a538ce8af58a33319a0503065284c",
@@ -17,20 +17,21 @@
     "assets/img/bunny-cache-clearer.d40bbb.jpg": "316a0a88d147f890491196c81c039d68",
     "assets/img/noteverythingibuildneedstobeaproduct.375b46.jpg": "5944e3eb5f1474e47bd1a1114faff38a",
     "assets/img/og/social-card.053363.jpg": "7f8f9137004d87c8a55c633bfb09faab",
-    "assets/site.css": "e9f52a708207d87d1f87f2e03dc601c2",
+    "assets/site.css": "599967a7c093bd8b70608f9ad87118ca",
     "assets/site.js": "a2d69b9e08e87368a15b49521d21351f",
     "assets/social-card.svg": "1362e9e1d98c9b674c1c5f109e10885e",
     "black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/index.html": "1e7b68e5ec408046b146bcf77add8d2b",
     "blog/category/reflections/index.html": "64309d047237ed24a1b78730c53c81ec",
     "blog/feed.xml": "792c900da426a9045d7286672c5b1963",
-    "blog/index.html": "d66fa303ce641c3cc3f8fb145f3f391b",
+    "blog/index.html": "ffbfb94e6b8ef4d26eaef0552a459c7a",
+    "blog/page/2/index.html": "8e7ae04408ca5ff9e0f35cb79204d269",
     "blog/tag/black-friday/index.html": "2566e0ff3a37b770ce809177b41ee760",
     "blog/tag/bunny/index.html": "dd95f43ef614db49b49fdd2234a2c938",
     "blog/tag/chrome/index.html": "967316134e64cd3737bb92f7c37b71c2",
     "blog/tag/deals/index.html": "95b6988a9408814b10359925f676b58a",
     "blog/tag/note/index.html": "53dd7e110308ee60823055869545283b",
     "blog/tag/reflection/index.html": "29bc111e8659b809bf197427dc1fede4",
-    "build.mjs": "9f647565e3899f8cd01d3a2bbfcedbc2",
+    "build.mjs": "c0e7e3352e5754ba8def153d91f41521",
     "contact/index.html": "1cbc70df6626b7e6f39b2c0b524c47a1",
     "content/posts.json": "3a64ffe31c6f524a4007c09997c86dd2",
     "feed.xml": "51f297d935da5a0085aa6bbbf8476928",
@@ -40,7 +41,7 @@
     "not-everything-i-build-needs-to-be-a-product/index.html": "43a0ba4a3163eefd4652c4ca82d7fbb1",
     "notes-from-today-social-card-example.svg": "12b4a5e64f5bda57a71d2a8d4298cf59",
     "notes-from-today-social-card-template.af": "d418c4ba1cbc437990f0aafe17552a5e",
-    "notes/page/2/index.html": "0160c402b1f7c16b51d52678c26fece2",
+    "notes/page/2/index.html": "a99821dcceb6cc6003c01ba0f10a3301",
     "opinions-subscriptions/index.html": "b9967fc397cb157edfd38e17c55d8dae",
     "package.json": "5e3b52ed46711443513c274a6ecc3040",
     "README.md": "8eccdfec07fc9bba399fcfb66d9b5e36",
@@ -56,7 +57,10 @@
     "2026-11-01T16-16-39-220Z-8466db",
     "2026-11-01T16-47-44-042Z-9fe556",
     "2026-11-05T21-19-33-061Z-78051a",
-    "2026-11-09T18-01-25-045Z-523541"
+    "2026-11-09T18-01-25-045Z-523541",
+    "2026-11-09T18-08-33-901Z-a2a2f0",
+    "2026-11-09T18-13-14-228Z-3a7d61",
+    "2026-11-09T18-14-52-845Z-35efca"
   ],
   "optimize": "{\"v\":1,\"minify\":true,\"cache\":false,\"inlineCssKb\":0,\"server\":true}"
 }

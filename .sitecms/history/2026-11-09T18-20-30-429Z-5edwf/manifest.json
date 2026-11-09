@@ -1,0 +1,70 @@
+{
+  "label": "AI: Repair archive links and legacy routes",
+  "at": "2026-11-09T18:20:30.429Z",
+  "files": [
+    {
+      "path": "black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/category/reflections/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/page/2/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/black-friday/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/bunny/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/chrome/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/deals/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/note/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/reflection/index.html",
+      "existed": true
+    },
+    {
+      "path": "lighter-less-polished/index.html",
+      "existed": true
+    },
+    {
+      "path": "need-it-so-build-it/index.html",
+      "existed": true
+    },
+    {
+      "path": "not-everything-i-build-needs-to-be-a-product/index.html",
+      "existed": true
+    },
+    {
+      "path": "opinions-subscriptions/index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/page/2/index.html",
+      "existed": true
+    }
+  ]
+}

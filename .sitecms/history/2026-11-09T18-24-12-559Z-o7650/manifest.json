@@ -1,0 +1,10 @@
+{
+  "label": "AI: Align generated navigation with the live archive",
+  "at": "2026-11-09T18:24:12.559Z",
+  "files": [
+    {
+      "path": "build.mjs",
+      "existed": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Redirects and 404 page for the server",
+  "at": "2026-11-09T18:08:31.286Z",
+  "files": [
+    {
+      "path": ".htaccess",
+      "existed": true
+    }
+  ]
+}

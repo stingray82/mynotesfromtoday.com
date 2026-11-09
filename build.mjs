@@ -7,13 +7,13 @@ const PAGE_SIZE = 2;
 const posts = JSON.parse(await readFile('content/posts.json', 'utf8')).sort((a, b) => b.date.localeCompare(a.date));
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const formatDate = (date) => new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T12:00:00Z`));
-const urlFor = (post) => `/notes/${post.slug}/`;
-const linkFor = (post, root) => `${root}notes/${post.slug}/`;
+const urlFor = (post) => `/${post.slug}/`;
+const linkFor = (post, root) => `${root}${post.slug}/`;
 
 function layout({ title, description, path, root, current, content, scripts = '', noindex = false }) {
   const fullTitle = title === siteName ? siteName : `${title} | ${siteName}`;
   const nav = [
-    ['Notes', `${root}notes/`, 'notes'],
+    ['Notes', `${root}blog/`, 'notes'],
     ['About', `${root}about/`, 'about'],
     ['Contact', `${root}contact/`, 'contact']
   ];
@@ -46,7 +46,7 @@ function layout({ title, description, path, root, current, content, scripts = ''
   <main id="main">${content}</main>
   <footer class="site-footer"><div class="container">
     <div class="footer-top"><div><a class="brand brand-footer" href="${root}" aria-label="${siteName}, home"><span class="brand-main">my notes<span class="brand-dot">.</span></span><span class="brand-sub">FROM TODAY</span></a><p>Curiosity, experiments and considered opinions. Written one note at a time.</p></div>
-      <nav class="footer-links" aria-label="Footer navigation"><a href="${root}notes/">All notes</a><a href="${root}about/">About</a><a href="${root}contact/">Contact</a><a href="${root}feed.xml">RSS</a><a href="https://techarticles.co.uk/" rel="noopener noreferrer">TechArticles ↗</a></nav>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="${root}blog/">All notes</a><a href="${root}about/">About</a><a href="${root}contact/">Contact</a><a href="${root}feed.xml">RSS</a><a href="https://techarticles.co.uk/" rel="noopener noreferrer">TechArticles ↗</a></nav>
     </div><div class="footer-bottom"><span>© ${new Date().getUTCFullYear()} ${siteName}</span><span>Made for reading, wherever you are.</span></div>
   </div></footer>
   ${scripts}
@@ -78,7 +78,7 @@ const recent = posts.slice(0, 8);
 await output('index.html', layout({
   title: siteName, description: 'A personal notebook for tinkering, things worth trying, and opinions still taking shape.', path: '/', root: './', current: 'home',
   content: `<section class="hero"><div class="container hero-grid"><div><p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> A personal notebook</p><h1>Notes from <em>today.</em></h1></div><div class="hero-aside"><p class="lead">What I’m making, testing, reading and thinking about. A place for ideas in motion and opinions with room to change.</p><a class="text-link" href="./about/">More about this space <span aria-hidden="true">↗</span></a></div></div></section>
-    <section class="section listing-section"><div class="container"><div class="section-heading"><div><p class="eyebrow">The latest</p><h2>Recent notes<span class="heading-period">.</span></h2></div><a class="text-link" href="./notes/">View the full archive <span aria-hidden="true">↗</span></a></div><div class="note-list">${recent.map((post, index) => row(post, './', index)).join('')}</div><div class="list-end"><span>More to come, one note at a time.</span><a href="./notes/">Browse all notes <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="section listing-section"><div class="container"><div class="section-heading"><div><p class="eyebrow">The latest</p><h2>Recent notes<span class="heading-period">.</span></h2></div><a class="text-link" href="./blog/">View the full archive <span aria-hidden="true">↗</span></a></div><div class="note-list">${recent.map((post, index) => row(post, './', index)).join('')}</div><div class="list-end"><span>More to come, one note at a time.</span><a href="./blog/">Browse all notes <span aria-hidden="true">↗</span></a></div></div></section>
     <section class="about-strip"><div class="container about-strip-inner"><p class="eyebrow">A little context</p><p>Detailed technical guides live over at <a href="https://techarticles.co.uk/" rel="noopener noreferrer">TechArticles ↗</a>. Here, the smaller observations get space to breathe.</p><a class="round-arrow" href="./about/" aria-label="Read more about this site"><span aria-hidden="true">↗</span></a></div></section>`
 }));
 
@@ -105,7 +105,7 @@ for (let page = 1; page <= pageCount; page++) {
     title: page === 1 ? 'All notes' : `All notes, page ${page}`,
     description: 'Browse the notes on tinkering, experiments and considered opinions.',
     path: archiveUrl(page), root, current: 'notes',
-    content: `<section class="page-intro"><div class="container"><p class="eyebrow">The archive</p><h1>All notes<span class="heading-period">.</span></h1><p class="lead">A running collection of small experiments, useful discoveries and thoughts worth keeping.</p></div></section><section class="section archive-section"><div class="container"><div class="archive-tools"><p>Showing ${posts.length ? start + 1 : 0}–${Math.min(start + PAGE_SIZE, posts.length)} of ${posts.length} notes</p><a class="text-link" href="${root}notes/search/">Search every note <span aria-hidden="true">↗</span></a></div><div class="note-list">${pagePosts.map((post, index) => row(post, root, start + index)).join('')}</div>${pagination(page, root)}</div></section>`
+    content: `<section class="page-intro"><div class="container"><p class="eyebrow">The archive</p><h1>All notes<span class="heading-period">.</span></h1><p class="lead">A running collection of small experiments, useful discoveries and thoughts worth keeping.</p></div></section><section class="section archive-section"><div class="container"><div class="archive-tools"><p>Showing ${posts.length ? start + 1 : 0}–${Math.min(start + PAGE_SIZE, posts.length)} of ${posts.length} notes</p><a class="text-link" href="${root}notes/search/">Search every note <span aria-hidden="true">↗</span></a></div><div class="note-list" style="counter-reset: note-row ${start}">${pagePosts.map((post, index) => row(post, root, start + index)).join('')}</div>${pagination(page, root)}</div></section>`
   }));
 }
 
@@ -115,8 +115,8 @@ await output('notes/search/index.html', layout({
 }));
 
 for (const post of posts) {
-  await output(`notes/${post.slug}/index.html`, layout({
-    title: post.title, description: post.excerpt, path: urlFor(post), root: '../../', current: 'article',
+  await output(`${post.slug}/index.html`, layout({
+    title: post.title, description: post.excerpt, path: urlFor(post), root: '../', current: 'article',
     content: `<div class="container"><header class="article-header"><p class="eyebrow">From the notebook</p><h1>${escapeHtml(post.title)}</h1><p class="lead">${escapeHtml(post.excerpt)}</p>${meta(post)}</header><div class="article-layout"><article class="prose">${renderBody(post.body)}<a class="back-link" href="../">← Back to all notes</a></article><aside class="article-aside" aria-label="About this note"><p><strong>${escapeHtml(post.topic)}</strong><br>${formatDate(post.date)}<br>${post.readMinutes} minute read</p><p>Have a thought about this note? <a href="../../contact/">Get in touch</a>.</p></aside></div></div>`
   }));
 }
@@ -134,7 +134,7 @@ await output('contact/index.html', layout({
 
 await output('404.html', layout({
   title: 'Page not found', description: 'That page could not be found.', path: '/404.html', root: './', current: 'none',
-  content: '<section class="page-intro"><div class="container"><p class="eyebrow">A missing page</p><h1>That note is not here.</h1><p class="lead">The link might have changed, or the page might have moved.</p><div class="hero-actions"><a class="button button-primary" href="./">Go home</a><a class="button button-secondary" href="./notes/">Browse notes</a></div></div></section>'
+  content: '<section class="page-intro"><div class="container"><p class="eyebrow">A missing page</p><h1>That note is not here.</h1><p class="lead">The link might have changed, or the page might have moved.</p><div class="hero-actions"><a class="button button-primary" href="./">Go home</a><a class="button button-secondary" href="./blog/">Browse notes</a></div></div></section>'
 }));
 
 const xml = (value) => escapeHtml(value);

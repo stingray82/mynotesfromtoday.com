@@ -1,0 +1,30 @@
+{
+  "label": "AI: Repair RSS and legacy note destinations",
+  "at": "2026-11-09T18:26:26.367Z",
+  "files": [
+    {
+      "path": "a-place-for-the-in-between/index.html",
+      "existed": false
+    },
+    {
+      "path": "the-value-of-a-small-experiment/index.html",
+      "existed": false
+    },
+    {
+      "path": "good-questions-to-keep-asking/index.html",
+      "existed": false
+    },
+    {
+      "path": "feed.xml",
+      "existed": true
+    },
+    {
+      "path": "sitemap.xml",
+      "existed": true
+    },
+    {
+      "path": "build.mjs",
+      "existed": true
+    }
+  ]
+}
