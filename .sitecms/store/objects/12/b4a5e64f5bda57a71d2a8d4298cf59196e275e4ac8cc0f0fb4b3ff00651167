@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Notes from Today — editable social card 1200 × 630</title>
+  <desc>Editable text and vector shapes. Change each headline text object and preserve the emphasis line. Uses common fallback fonts.</desc>
+  <g id="background"><rect x="0" y="0" width="1200" height="630" fill="#F7F4ED" /></g>
+  <g id="rules" fill="none" stroke="#242A26" stroke-width="1.5"><path d="M80 85 H1120"/><path d="M80 540 H1120"/></g>
+  <g id="eyebrow" fill="#BA5138" font-family="Arial, Liberation Sans, sans-serif" font-weight="700" font-size="24" letter-spacing="6"><text x="88" y="172">A PERSONAL NOTEBOOK</text></g>
+  <g id="headline" fill="#232A26" font-family="Georgia, Liberation Serif, serif" font-weight="400">
+    <text id="headline-line-1" x="82" y="300" font-size="85">Not everything I build</text>
+    <text id="headline-line-2" x="82" y="400" font-size="85">needs to be a</text>
+    <text id="headline-emphasis" x="82" y="498" fill="#BA5138" font-family="Georgia, Liberation Serif, serif" font-size="92" font-style="italic">product.</text>
+  </g>
+  <g id="footer" font-family="Georgia, Liberation Serif, serif" font-size="22" fill="#232A26"><text x="1118" y="590" text-anchor="end">notes from today.</text></g>
+</svg>

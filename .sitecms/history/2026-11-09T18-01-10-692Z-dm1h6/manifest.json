@@ -1,0 +1,34 @@
+{
+  "label": "Blog: publish",
+  "at": "2026-11-09T18:01:10.692Z",
+  "files": [
+    {
+      "path": "black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/deals/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/tag/black-friday/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/feed.xml",
+      "existed": true
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "sitemap.xml",
+      "existed": true
+    }
+  ]
+}

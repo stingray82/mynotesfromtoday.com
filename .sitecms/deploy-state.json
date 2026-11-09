@@ -1,9 +1,9 @@
 {
   "lastDeploy": {
-    "id": "2026-11-05T21-19-33-061Z-78051a",
+    "id": "2026-11-09T18-01-25-045Z-523541",
     "url": "https://mynotesfromtoday.com",
     "branch": "production",
-    "at": "2026-11-05T21:19:34.054Z"
+    "at": "2026-11-09T18:01:25.954Z"
   },
   "files": {
     ".htaccess": "7ad9da8532478af2a555b41f4d3ad373",
@@ -13,33 +13,39 @@
     "assets/craftpages-code.js": "19532dff2cb140a3f9dcc04199280199",
     "assets/craftpages-lightbox.js": "ed2b2fcc52247e39d2d666c312ada882",
     "assets/favicon.svg": "103991c19f992883991ac656bcf2fc30",
+    "assets/img/bf-support-good-developers.aecba8.jpg": "39042adb2b3bb1a8df7abd46f1c3e418",
     "assets/img/bunny-cache-clearer.d40bbb.jpg": "316a0a88d147f890491196c81c039d68",
     "assets/img/noteverythingibuildneedstobeaproduct.375b46.jpg": "5944e3eb5f1474e47bd1a1114faff38a",
     "assets/img/og/social-card.053363.jpg": "7f8f9137004d87c8a55c633bfb09faab",
     "assets/site.css": "e9f52a708207d87d1f87f2e03dc601c2",
     "assets/site.js": "a2d69b9e08e87368a15b49521d21351f",
     "assets/social-card.svg": "1362e9e1d98c9b674c1c5f109e10885e",
+    "black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/index.html": "1e7b68e5ec408046b146bcf77add8d2b",
     "blog/category/reflections/index.html": "64309d047237ed24a1b78730c53c81ec",
-    "blog/feed.xml": "9ab2b7537855af5c1b4b7fe87b79e3ef",
-    "blog/index.html": "4bb54884f1a38eb59500145898d46801",
+    "blog/feed.xml": "792c900da426a9045d7286672c5b1963",
+    "blog/index.html": "d66fa303ce641c3cc3f8fb145f3f391b",
+    "blog/tag/black-friday/index.html": "2566e0ff3a37b770ce809177b41ee760",
     "blog/tag/bunny/index.html": "dd95f43ef614db49b49fdd2234a2c938",
     "blog/tag/chrome/index.html": "967316134e64cd3737bb92f7c37b71c2",
+    "blog/tag/deals/index.html": "95b6988a9408814b10359925f676b58a",
     "blog/tag/note/index.html": "53dd7e110308ee60823055869545283b",
     "blog/tag/reflection/index.html": "29bc111e8659b809bf197427dc1fede4",
     "build.mjs": "9f647565e3899f8cd01d3a2bbfcedbc2",
     "contact/index.html": "1cbc70df6626b7e6f39b2c0b524c47a1",
     "content/posts.json": "3a64ffe31c6f524a4007c09997c86dd2",
     "feed.xml": "51f297d935da5a0085aa6bbbf8476928",
-    "index.html": "f145aaa40444096aed03b4c96ee83e35",
+    "index.html": "68ab9f6e6c98bd71ee8cafc6ffab1998",
     "lighter-less-polished/index.html": "0c27ceac8419ce480e27ada0970fdc70",
     "need-it-so-build-it/index.html": "51b0452f4e83a2ebe27d97dfbe191a1f",
     "not-everything-i-build-needs-to-be-a-product/index.html": "43a0ba4a3163eefd4652c4ca82d7fbb1",
+    "notes-from-today-social-card-example.svg": "12b4a5e64f5bda57a71d2a8d4298cf59",
+    "notes-from-today-social-card-template.af": "d418c4ba1cbc437990f0aafe17552a5e",
     "notes/page/2/index.html": "0160c402b1f7c16b51d52678c26fece2",
     "opinions-subscriptions/index.html": "b9967fc397cb157edfd38e17c55d8dae",
     "package.json": "5e3b52ed46711443513c274a6ecc3040",
     "README.md": "8eccdfec07fc9bba399fcfb66d9b5e36",
     "robots.txt": "06418f81a032c9d0488a7a502c54525a",
-    "sitemap.xml": "0ca5bc3872d2a3b15350bdb64b2b5432",
+    "sitemap.xml": "4491db0737d1dfdf39622327b956a3e0",
     "verify.mjs": "f8d8851d29d62314a415735239b3dcee"
   },
   "published": [
@@ -49,7 +55,8 @@
     "2026-11-01T15-24-25-359Z-74c67d",
     "2026-11-01T16-16-39-220Z-8466db",
     "2026-11-01T16-47-44-042Z-9fe556",
-    "2026-11-05T21-19-33-061Z-78051a"
+    "2026-11-05T21-19-33-061Z-78051a",
+    "2026-11-09T18-01-25-045Z-523541"
   ],
   "optimize": "{\"v\":1,\"minify\":true,\"cache\":false,\"inlineCssKb\":0,\"server\":true}"
 }
