@@ -1,0 +1,55 @@
+{
+  "id": "cd27b3cb41545c20",
+  "siteName": "mynotesfromtoday.com",
+  "baseUrl": "https://mynotesfromtoday.com",
+  "locale": "en",
+  "languages": [],
+  "deploy": {
+    "connection": "9eaa7384c35c",
+    "target": "server",
+    "projectName": "",
+    "workerName": "",
+    "productionBranch": "main",
+    "previewBranch": "preview",
+    "remoteDir": "/mynotesfromtoday",
+    "exclude": [
+      ".DS_Store",
+      "Thumbs.db",
+      "*.bak*"
+    ],
+    "connectionHint": "ftp:mynotesfromtoday@uk.storage.bunnycdn.com:21"
+  },
+  "images": {
+    "maxWidth": 2400,
+    "quality": 80,
+    "pngToJpeg": true,
+    "dir": "assets/img"
+  },
+  "optimize": {
+    "minify": false,
+    "cache": false,
+    "inlineCssKb": 0
+  },
+  "editing": {
+    "codeEditor": false
+  },
+  "forms": {
+    "account": "",
+    "accountHint": "",
+    "domain": ""
+  },
+  "seo": {
+    "titlePattern": "%title% · %site%",
+    "defaultImage": "",
+    "sitemapAuto": false,
+    "sitemapExclude": []
+  },
+  "blog": {
+    "permalink": "/blog/%postname%/",
+    "listPath": "/blog/",
+    "postsPerPage": 10,
+    "title": "Blog",
+    "scheduleDeploy": false,
+    "emptyText": "No posts yet."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "label": "AI: Make blog pagination numbers point to valid pages",
+  "at": "2026-11-15T16:13:07.066Z",
+  "files": [
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/page/2/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/page/3/index.html",
+      "existed": true
+    }
+  ]
+}

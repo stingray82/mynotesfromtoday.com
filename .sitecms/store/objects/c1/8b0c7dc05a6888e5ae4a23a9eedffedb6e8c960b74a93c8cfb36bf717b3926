@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=/blog/">
+  <link rel="canonical" href="https://mynotesfromtoday.com/blog/">
+  <meta name="robots" content="noindex,follow">
+  <title>Notes archive moved | My Notes from Today</title>
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <main id="main" class="page-intro"><div class="container">
+    <p class="eyebrow">Archive updated</p>
+    <h1>The notes are together<span class="heading-period">.</span></h1>
+    <p class="lead">The all seven published notes now fit on one page.</p>
+    <a class="button button-primary" href="/blog/">Open the notes archive</a>
+  </div></main>
+</body>
+</html>

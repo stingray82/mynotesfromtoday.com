@@ -1,0 +1,86 @@
+{
+  "label": "Blog: publish",
+  "at": "2026-11-15T16:46:30.647Z",
+  "files": [
+    {
+      "path": "whats-the-future-of-my-technical-content-in-an-ai-world/index.html",
+      "existed": true
+    },
+    {
+      "path": "im-not-giving-up-on-wordpress-just-yet/index.html",
+      "existed": true
+    },
+    {
+      "path": "black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/index.html",
+      "existed": true
+    },
+    {
+      "path": "not-everything-i-build-needs-to-be-a-product/index.html",
+      "existed": true
+    },
+    {
+      "path": "need-it-so-build-it/index.html",
+      "existed": true
+    },
+    {
+      "path": "opinions-subscriptions/index.html",
+      "existed": true
+    },
+    {
+      "path": "lighter-less-polished/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/wordpress/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/ai/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/note/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/static/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/deals/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/black-friday/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/reflection/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/bunny/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/chrome/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/category/reflections/index.html",
+      "existed": true
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "sitemap.xml",
+      "existed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "label": "AI: Polish the 10-note archive and card details",
+  "at": "2026-11-15T16:49:02.733Z",
+  "files": [
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "assets/site.css",
+      "existed": true
+    }
+  ]
+}

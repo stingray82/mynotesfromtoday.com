@@ -1,5 +1,5 @@
 {
-  "id": "5e1783a2b059f7cd",
+  "id": "cd27b3cb41545c20",
   "siteName": "mynotesfromtoday.com",
   "baseUrl": "https://mynotesfromtoday.com",
   "locale": "en",
@@ -15,13 +15,7 @@
     "exclude": [
       ".DS_Store",
       "Thumbs.db",
-      "*.bak*",
-      "/notes/a-place-for-the-in-between/index.html",
-      "/notes/good-questions-to-keep-asking/*",
-      "/notes/the-value-of-a-small-experiment/*",
-      "/notes/index.html",
-      "/note/page/2/index.html",
-      "/note/search/*"
+      "*.bak*"
     ],
     "connectionHint": "ftp:mynotesfromtoday@uk.storage.bunnycdn.com:21"
   },
@@ -32,12 +26,12 @@
     "dir": "assets/img"
   },
   "optimize": {
-    "minify": true,
+    "minify": false,
     "cache": false,
     "inlineCssKb": 0
   },
   "editing": {
-    "codeEditor": true
+    "codeEditor": false
   },
   "forms": {
     "account": "",
@@ -51,11 +45,11 @@
     "sitemapExclude": []
   },
   "blog": {
-    "permalink": "/%postname%/",
+    "permalink": "/blog/%postname%/",
     "listPath": "/blog/",
     "postsPerPage": 10,
-    "title": "Notes",
-    "scheduleDeploy": true,
+    "title": "Blog",
+    "scheduleDeploy": false,
     "emptyText": "No posts yet."
   }
 }

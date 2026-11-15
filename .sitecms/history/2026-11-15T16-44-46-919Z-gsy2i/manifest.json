@@ -1,0 +1,138 @@
+{
+  "label": "AI: Redesign the local site around a 10-note archive",
+  "at": "2026-11-15T16:44:46.919Z",
+  "files": [
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/page/2/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/page/3/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/category/reflections/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/category/reflections/page/2/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/ai/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/black-friday/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/bunny/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/chrome/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/deals/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/note/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/reflection/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/static/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/wordpress/index.html",
+      "existed": true
+    },
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "whats-the-future-of-my-technical-content-in-an-ai-world/index.html",
+      "existed": true
+    },
+    {
+      "path": "im-not-giving-up-on-wordpress-just-yet/index.html",
+      "existed": true
+    },
+    {
+      "path": "black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/index.html",
+      "existed": true
+    },
+    {
+      "path": "not-everything-i-build-needs-to-be-a-product/index.html",
+      "existed": true
+    },
+    {
+      "path": "need-it-so-build-it/index.html",
+      "existed": true
+    },
+    {
+      "path": "opinions-subscriptions/index.html",
+      "existed": true
+    },
+    {
+      "path": "lighter-less-polished/index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/a-place-for-the-in-between/index.html",
+      "existed": true
+    },
+    {
+      "path": "a-place-for-the-in-between/index.html",
+      "existed": true
+    },
+    {
+      "path": "good-questions-to-keep-asking/index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/good-questions-to-keep-asking/index.html",
+      "existed": true
+    },
+    {
+      "path": "notes/the-value-of-a-small-experiment/index.html",
+      "existed": true
+    },
+    {
+      "path": "the-value-of-a-small-experiment/index.html",
+      "existed": true
+    },
+    {
+      "path": "contact/index.html",
+      "existed": true
+    },
+    {
+      "path": "assets/site.css",
+      "existed": true
+    },
+    {
+      "path": "README.md",
+      "existed": true
+    },
+    {
+      "path": "package.json",
+      "existed": true
+    },
+    {
+      "path": "build.mjs",
+      "existed": true
+    }
+  ]
+}

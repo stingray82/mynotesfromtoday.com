@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Notes · mynotesfromtoday.com</title>
+    <link>https://mynotesfromtoday.com/blog/</link>
+    <description>mynotesfromtoday.com notes</description>
+    <language>en</language>
+    <item>
+      <title>test Post 2</title>
+      <link>https://mynotesfromtoday.com/test-post-2/</link>
+      <guid>https://mynotesfromtoday.com/test-post-2/</guid>
+      <pubDate>Sun, 15 Nov 2026 17:09:45 GMT</pubDate>
+      <description>Another Test Oist</description>
+    </item>
+    <item>
+      <title>What's the Future of My Technical Content in an AI World?</title>
+      <link>https://mynotesfromtoday.com/whats-the-future-of-my-technical-content-in-an-ai-world/</link>
+      <guid>https://mynotesfromtoday.com/whats-the-future-of-my-technical-content-in-an-ai-world/</guid>
+      <pubDate>Sun, 15 Nov 2026 15:08:33 GMT</pubDate>
+      <category>WordPress</category>
+      <category>AI</category>
+      <category>Note</category>
+      <description>I've been thinking about TechArticles, YouTube, the changing value of technical tutorials and why I still want to document what I'm doing, even if fewer people are reading or watching. I've spent…</description>
+    </item>
+    <item>
+      <title>I'm Not Giving Up on WordPress Just Yet</title>
+      <link>https://mynotesfromtoday.com/im-not-giving-up-on-wordpress-just-yet/</link>
+      <guid>https://mynotesfromtoday.com/im-not-giving-up-on-wordpress-just-yet/</guid>
+      <pubDate>Sun, 15 Nov 2026 15:06:41 GMT</pubDate>
+      <category>WordPress</category>
+      <category>AI</category>
+      <category>Static</category>
+      <description>WordPress might not always need to be the frontend. Perhaps its future is being the backend to everything else. There seems to be a growing feeling that WordPress is on its way…</description>
+    </item>
+    <item>
+      <title>Black Friday Is Coming, But My Wishlist Is Smaller Than Ever</title>
+      <link>https://mynotesfromtoday.com/black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/</link>
+      <guid>https://mynotesfromtoday.com/black-friday-is-coming-but-my-wishlist-is-smaller-than-ever/</guid>
+      <pubDate>Mon, 09 Nov 2026 17:56:04 GMT</pubDate>
+      <category>Deals</category>
+      <category>Black Friday</category>
+      <description>It's coming up to Black Friday again, and I've realised that this year I probably have the smallest wishlist I've ever had. In previous years, I've usually had a fairly long list…</description>
+    </item>
+    <item>
+      <title>Not Everything I Build Needs to Be a Product</title>
+      <link>https://mynotesfromtoday.com/not-everything-i-build-needs-to-be-a-product/</link>
+      <guid>https://mynotesfromtoday.com/not-everything-i-build-needs-to-be-a-product/</guid>
+      <pubDate>Thu, 05 Nov 2026 20:52:42 GMT</pubDate>
+      <category>Reflection</category>
+      <description>Today I managed to disappoint the same person twice, for two entirely different reasons. Both conversations revolved around the WordPress plugins I develop, and both left me thinking about how differently people…</description>
+    </item>
+    <item>
+      <title>Need it so build it</title>
+      <link>https://mynotesfromtoday.com/need-it-so-build-it/</link>
+      <guid>https://mynotesfromtoday.com/need-it-so-build-it/</guid>
+      <pubDate>Sun, 01 Nov 2026 16:09:46 GMT</pubDate>
+      <category>Bunny</category>
+      <category>Chrome</category>
+      <description>I have been building more and more chrome Extension to make my life easier including the one that generates the links in this article and also the one it is about this…</description>
+    </item>
+    <item>
+      <title>Opinions &amp; Subscriptions</title>
+      <link>https://mynotesfromtoday.com/opinions-subscriptions/</link>
+      <guid>https://mynotesfromtoday.com/opinions-subscriptions/</guid>
+      <pubDate>Sun, 01 Nov 2026 15:14:42 GMT</pubDate>
+      <description>I seem to be in my grump old man phase this week, but I woke up this morning and culled about $1500 worth of subscriptions. Why? I am spending to much on…</description>
+    </item>
+    <item>
+      <title>Lighter &amp; Less Polished</title>
+      <link>https://mynotesfromtoday.com/lighter-less-polished/</link>
+      <guid>https://mynotesfromtoday.com/lighter-less-polished/</guid>
+      <pubDate>Tue, 27 Oct 2026 15:42:25 GMT</pubDate>
+      <category>Note</category>
+      <description>An introduction to my notes from today the plan is for it to be lighter a space where I can share the bits that are not finished that I am working on…</description>
+    </item>
+  </channel>
+</rss>

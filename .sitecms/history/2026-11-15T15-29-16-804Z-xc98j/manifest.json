@@ -1,0 +1,62 @@
+{
+  "label": "Blog: publish",
+  "at": "2026-11-15T15:29:16.804Z",
+  "files": [
+    {
+      "path": "blog/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/page/2/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/page/3/index.html",
+      "existed": false
+    },
+    {
+      "path": "blog/tag/wordpress/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/ai/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/note/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/static/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/deals/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/black-friday/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/reflection/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/bunny/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/tag/chrome/index.html",
+      "existed": true
+    },
+    {
+      "path": "blog/category/reflections/index.html",
+      "existed": true
+    },
+    {
+      "path": "sitemap.xml",
+      "existed": true
+    }
+  ]
+}

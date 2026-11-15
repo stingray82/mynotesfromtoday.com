@@ -1,23 +1,25 @@
 # My Notes from Today
 
-A static HTML blog with no framework or runtime dependency. The generated pages are already included, so the folder can be uploaded directly to a static host or pushed to a repository.
+This is the local CraftPages project for mynotesfromtoday.com. CraftPages is the source of truth for the seven published posts and generated archive pages; the checked-in HTML is the static output that gets pushed.
 
-The design uses a text wordmark and an article-first editorial layout. The home page shows the eight newest notes. The notes archive has static numbered pages, while its separate search page searches and filters the full collection.
+## Edit posts
 
-## Edit the blog
+1. Open the **Blog** section in CraftPages and edit or add posts there.
+2. Keep the post URL pattern at `/%postname%/`, the list address at `/blog/`, and posts per page at `10`.
+3. In **Setup**, use `notes/a-place-for-the-in-between/index.html` as the post layout and `blog/index.html` as the list layout. The post layout maps the article, title, date, and category; the list maps the list, card fields, and pagination.
+4. Use **Save and re-publish** in Blog settings to regenerate local files. This updates the local project only. Use **Publish site** only when you intend to send changes to the configured remote.
+5. Preview the home page, `/blog/`, and a post in CraftPages before pushing.
 
-1. Edit `content/posts.json`. Each post needs a unique `slug`, `title`, ISO `date`, `topic`, `excerpt`, `readMinutes`, and `body` array. Body blocks use `p`, `h2`, or `blockquote` as their `type`.
-2. Run `npm run build` (Node.js required). Commit or upload the generated HTML and XML files alongside `assets/`.
-3. Replace the starter notes with your own writing before launch. The current pieces are sample editorial copy, not claims about products or personal experience.
+The archive shows ten notes per page. With seven published posts, all seven appear together on `/blog/`. Edit shared styles in `assets/site.css`; the header and footer are shared across the site.
 
-The build creates the home page, paginated notes archive, full-archive search page, individual article pages, about and contact pages, RSS feed, sitemap, robots file, and a 404 page. Pagination works without JavaScript. Search and topic filters work in the browser without a service; all posts on the search page remain visible if JavaScript is disabled. Change `PAGE_SIZE` near the top of `build.mjs` to adjust the number of notes per page (currently 2 so pagination is visible with the starter notes).
+## Publish exclusions
 
-The supplied CraftForms embed is installed on `contact/index.html`. It needs the remote CraftForms script and a live connection to that service. Other pages load no third-party scripts.
+CraftPages project exclusions are configured in `site.json`. A path listed there can be generated correctly in the local project and still be omitted from every publish. This is separate from redirects in `_redirects` and routing rules in `.htaccess`; neither file reveals a publish exclusion.
 
-## CraftPages
+Before publishing a missing or stale page, check `site.json` for that exact path, especially `blog/index.html`. Remove any unintended exclusion, then publish and verify the report includes the file. Finally, open `/blog/index.html` directly and confirm it contains the newest posts. Do not treat “live site up to date” as proof that an excluded file was uploaded.
 
-This project is plain HTML, CSS, and JavaScript and can be used as a visual reference or uploaded as static files. If you edit a generated page directly in CraftPages, save that edited HTML separately: running the build again will replace generated pages. CraftPages account setup and publishing are not configured here.
+The `/blog/index.html` omission traced during the November 2026 archive work was caused by a `site.json` exclusion. The post generator and local archive were working; CraftPages correctly followed the exclusion and did not upload that page.
 
-## Preview and deploy
+## Important
 
-Run `python -m http.server 8000`, then open `http://localhost:8000/`. Upload the repository contents to any host that serves static files. Configure your host's custom domain and 404 setting for `mynotesfromtoday.com`.
+This is a plain-HTML CraftPages project. Do not run the old `build.mjs` generator: it uses an outdated three-post seed file and a different `/notes/` route scheme. The published CraftPages Blog data and its layouts are the active source.

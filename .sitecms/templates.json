@@ -1,6 +1,6 @@
 {
   "post": "notes/a-place-for-the-in-between/index.html",
-  "list": "notes/index.html",
+  "list": "blog/index.html",
   "postLayout": {
     "regions": [
       {
@@ -89,15 +89,14 @@
     "container": {
       "path": [
         2,
-        1,
-        0,
         1
       ],
-      "tag": "div",
+      "tag": "section",
       "classes": [
-        "note-list"
+        "section",
+        "archive-section"
       ],
-      "hint": "div.note-list “01Field notes10 October 2026A place fo…”"
+      "hint": "section.section “Showing 1–3 of 5 notes 01 November 9, …”"
     },
     "card": {
       "element": {
@@ -112,7 +111,7 @@
         "classes": [
           "note-row"
         ],
-        "hint": "article.note-row “01Field notes10 October 2026A place fo…”"
+        "hint": "article.note-row “01 November 9, 2026 Black Friday Is Co…”"
       },
       "fields": {
         "title": [
@@ -123,7 +122,7 @@
         "date": [
           1,
           0,
-          1
+          0
         ],
         "excerpt": [
           1,
@@ -131,15 +130,12 @@
         ],
         "links": [
           [
-            2
+            2,
+            0
           ]
         ],
         "link": [
-          2
-        ],
-        "category": [
-          1,
-          0,
+          2,
           0
         ]
       }
@@ -156,19 +152,9 @@
       "classes": [
         "pagination-numbers"
       ],
-      "hint": "div.pagination-numbers “12”"
+      "hint": "div.pagination-numbers “1 2”"
     },
-    "heading": {
-      "path": [
-        2,
-        0,
-        0,
-        1
-      ],
-      "tag": "h1",
-      "classes": [],
-      "hint": "h1 “All notes.”"
-    },
+    "heading": null,
     "keepOnly": true,
     "remove": []
   },
@@ -237,6 +223,7 @@
   ],
   "unpublished": [
     "notes/a-place-for-the-in-between/index.html",
-    "notes/index.html"
+    "notes/index.html",
+    "blog/index.html"
   ]
 }

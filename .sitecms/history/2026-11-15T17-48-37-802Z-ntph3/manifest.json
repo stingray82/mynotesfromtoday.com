@@ -1,0 +1,10 @@
+{
+  "label": "AI: Give the homepage context section more bottom space",
+  "at": "2026-11-15T17:48:37.802Z",
+  "files": [
+    {
+      "path": "assets/site.css",
+      "existed": true
+    }
+  ]
+}

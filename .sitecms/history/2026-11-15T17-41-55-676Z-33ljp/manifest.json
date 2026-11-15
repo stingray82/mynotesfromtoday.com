@@ -1,0 +1,14 @@
+{
+  "label": "AI: Add context to the homepage",
+  "at": "2026-11-15T17:41:55.676Z",
+  "files": [
+    {
+      "path": "index.html",
+      "existed": true
+    },
+    {
+      "path": "assets/site.css",
+      "existed": true
+    }
+  ]
+}
